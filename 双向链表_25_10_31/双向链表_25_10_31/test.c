@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include"List.h"
+
+
+int main() {
+
+	//≤‚ ‘≥ı ºªØ∫Ø ˝
+	LTNode *plist=NULL;
+	LTInit(&plist);
+	
+	//≤‚ ‘Œ≤≤Â≤¢«“≤‚ ‘¥Ú”°∫Ø ˝£ª
+	//LTPushback(plist, 5);
+	//LTPushback(plist, 9);
+	//LTPushback(plist, 10);
+	//LTPushback(plist, 12);
+	LTPrint(plist);
+	return 0;
+}
